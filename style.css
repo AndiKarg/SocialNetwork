@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sidenav {
+    height: 100%;
+    max-width: 350px;
+    width: 25%;
+    background-color: white;
+    color: black;
+    z-index: 101;
+}
+
+.sidenavitem {
+    text-align: center;
+    position: fixed;
+    background-color: #fff;
+    max-width: 300px;
+    width: 25%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 2px rgb(220, 220, 220);
+}
+
+#hide {
+    position: fixed;
+    margin-top: 48vh;
+}
+
+.sidenav ul {
+    list-style-type: none;
+}
+
+.sidenav ul li {
+    float: left;
+}
+
+.sidenav a {
+    padding-top: 2%;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    width: 100%;
+}
+
+.h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.sidenav .navitems {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    padding: 10px 10px;
+    letter-spacing: .2em;
+    transition: 0.3s;
+}
+
+.sidenav .navitems a {
+    margin-bottom: 15px;
+}
+
+.sidenav .navitems a:hover {
+    color: #2BAE66FF;
+}
+
+.sidenav .navfooter {
+    margin-top: 53vh;
+}
+
+.sidenav .navfooter ul {
+    width: 65%;
+    margin-left: 36%;
+}
+
+.sidenav .navfooter ul li a i {
+    margin-right: 5px;
+}
+
+.cell {
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mybtn {
+    float: right;
+    font-size: 210%;
+    color: #000;
+    margin-top: 12.5vh;
+    width: max-content;
+    border-left: solid 1px rgba(0, 0, 0, .075);
+    border-bottom: solid 1px rgba(0, 0, 0, .075);
+    border-radius: 5px;
+}
+
+.mybtn:hover {
+    cursor: pointer;
+    color: #2BAE66FF;
+}
+
+c {
+    color: #2BAE66FF;
+}
+
+.myhr {
+    margin-bottom: 1.5em;
+    background-color: rgba(43, 174, 102, 0.15);
+}
+
+.mif-2x:hover {
+    color: #2BAE66FF;
+}
+
+#showMenu {
+    padding: auto auto auto auto;
+    margin-top: 43.5vh;
+}
+
+.friendsdiv {
+    min-width: 15%;
+    max-width: 20%;
+    width: auto;
+    color: black;
+    box-shadow: 0px 0px 20px 2px rgb(220, 220, 220);
+}
+
+.friends {
+    position: fixed;
+    min-width: 15%;
+    max-width: 20%;
+    width: auto;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.friendsdiv .friends ul li {
+    color: green;
+    font-weight: 600;
+    padding: 2%;
+    margin-top: 0.5em;
+}
+
+.friendsdiv .friends ul .offline {
+    font-weight: 1;
+    filter: grayscale(100%);
+}
+
+.friendsdiv .friends ul li .friendpic {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 1em;
+}
+
+/*
+@media screen and (min-width: 48em) {
+    body {
+        background-color: red !important;
+    }
+}*/
